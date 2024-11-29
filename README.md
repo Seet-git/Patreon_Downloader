@@ -1,5 +1,5 @@
 
-# Patreon Video Downloader
+#  <img src="icon.png" alt="Extension Icon" width="80" /> Patreon Video Downloader 
 
 **⚠ WARNING: This extension is intended for personal use only and should only be used to download videos you have legally obtained access to, such as through a paid subscription or explicit permission from the content owner. Unauthorized downloading of copyrighted content is illegal and against this project's intended use. ⚠**
 
