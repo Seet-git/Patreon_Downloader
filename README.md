@@ -60,6 +60,7 @@ This extension requires the following permissions:
 
 ## Future Improvements
 
+- Compatibility for Firefox, Safari
 - Direct video downloads from the interface.
 - Add an interface to select resolutions for download.
 
