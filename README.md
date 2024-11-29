@@ -12,7 +12,7 @@
 
 1. Download or clone this repository:
    ```bash
-   git clone https://github.com/your-username/M3U8-Video-Downloader.git
+   git clone https://github.com/Seet-git/Patreon_Downloader.git
    ```
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer Mode**.
@@ -33,32 +33,32 @@ This extension requires the following permissions:
 - `webRequest`: To monitor network requests and detect M3U8 files.
 - `activeTab`: To interact with the active browser tab.
 
-### Technologies Used
+### Technologies used
 
 - **Manifest v3**: To define the extension's metadata.
 - **JavaScript**: For file analysis and interaction handling.
 - **HTML and CSS**: For the popup user interface.
 
-## External Dependencies
+## External dependencies
 
 - [FFmpeg](https://ffmpeg.org/): Required to convert M3U8 files to MP4. Make sure FFmpeg is installed on your system and added to your `PATH`.
 
 ## Development
 
-### File Structure
+### File structure
 
 - `background.js`: Manages background events and M3U8 file detection.
 - `popup.html` and `popup.js`: User interface for displaying and interacting with detected files.
 - `manifest.json`: Configuration file for the extension.
 
-### Useful Commands
+### Useful commands
 
 - Local conversion with FFmpeg:
   ```bash
   ffmpeg -i "m3u8_file_url" -c copy output.mp4
   ```
 
-## Future Improvements
+## Future improvements
 
 - Compatibility for Firefox, Safari
 - Direct video downloads from the interface.
