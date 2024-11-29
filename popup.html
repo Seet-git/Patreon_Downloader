@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patreon Downloader</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      width: 100%;
+      min-width: 300px;
+      height: 100%;
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow: auto;
+    }
+    header {
+      background-color: #0073e6;
+      color: white;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .container {
+      flex: 1;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow-y: auto;
+    }
+    .content {
+      width: 90%;
+      max-width: 400px;
+      margin: 10px auto;
+      padding: 10px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      overflow-y: auto;
+      max-height: 80%;
+    }
+    button {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #005bb5;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+    }
+    li {
+      background: #f0f0f0;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      word-wrap: break-word;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>Patreon Downloader</header>
+  <div class="container">
+    <div class="content">
+      <p>Select and download videos:</p>
+      <ul id="file-list"></ul>
+      <button id="reset">Reset List</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
